@@ -1,0 +1,4 @@
+vcs -full64 -q -sverilog -f designlist -kdb -timescale=1ns/1ps -unit_timescale=1ns/1ns +lint=all +error+500 \
+#+warn=noCERO +warn=noCIWC +lint=noIWU +lint=noNCEID +lint=noNS +lint=noDUDPE \
+#-error=SV-PIU -error=AOUP -error=CWUC -error=EPIMD -error=INAV -error=IPDASP -error=IPDW -error=ISALS -error=STASKW_CO -error=SVAA_UNF \
+-wreal res_def
